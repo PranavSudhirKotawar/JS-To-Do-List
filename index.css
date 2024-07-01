@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    font-size: 60px;
+}
+.input-button{
+    width: 100%;
+    height: 5%;
+    margin-top: 30px;
+}
+.input-1{
+    height: 100%;
+    width: 85%;
+    font-size: 25px;
+}
+.button-1{
+    height: 100%;
+    width: 8%;
+}
+.headinh-2{
+    margin-top: 30px;
+}
+.todo-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.check-input{
+    font-size: 20px;
+}
+.label{
+    width: 50%;
+    background-color: rgb(221, 128, 15);
+    border-left: 3px solid brown;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.checked{
+    text-decoration: line-through;
+}
+
+#saveTodo{
+    height: 30px;
+    width: 120px;
+    margin-top: 50px;
+}

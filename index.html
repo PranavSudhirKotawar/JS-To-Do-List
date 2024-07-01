@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/50dceb5aa8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="bgContainer" class="bg-container">
+        <h1 class="heading">TO-DO-LIST</h1>
+        
+        <div class="input-button">
+            <input id="userInput" type="text" class="input-1">
+            <button onclick="onTodoAdd()" class="button-1">Button</button>
+        </div>
+        <div class="TO-DO-parent">
+            <h1 class="headinh-2">List down your task</h1>
+        </div>
+        <!-- we are creatinh todo list dynamically in below container -->
+        <div id="toDoListContainer" class="TO_DO_CONTAINER"></div>
+        <button id="saveTodo" onclick="onSaveTodo()">Save</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
